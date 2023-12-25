@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Box</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header class="flex justify-between px-11 py-4">
+      <div class="flex"><img src="./src/images/Random Symboles 3.png" alt="" class="w-[15.25px] h-[19.7px]" /> <span class="pl-1 text-[12px] italic font-bold text-[#2947A9]">The Box</span></div>
+      <nav>
+        <ul class="flex justify-evenly gap-4 text-md">
+          <li class="hover:font-bold transition"><a href="">Home</a></li>
+          <li class="hover:font-bold"><a href="">About Us</a></li>
+          <li class="hover:font-bold"><a href="">Project</a></li>
+          <li class="hover:font-bold"><a href="">service</a></li>
+          <li class="hover:font-bold"><a href="" class="text-[#F9995D]">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- hero image -->
+    <div class="main hero-image min-h-screen bg-cover w-full shadow-md relative" style="background-image: url(./src/images/hero-image.jpg)">
+      <div class="pl-[45px] text-[68px] font-semibold text-[#292E3D] absolute left-5 bottom-1/3">
+        <h1>Building things</h1>
+        <h1>Is our mission.</h1>
+      </div>
+      <div class="w-[200px] text-white bg-blue-600 absolute right-0 bottom-0 text-center">
+        <p class="p-2 font-semibold">Feature project</p>
+        <p>
+          The National University of <br />
+          Architecture
+        </p>
+        <div class="flex justify-between bg-slate-600">
+          <div class="border-r w-[100px] flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" fill="none" class="rotate-180 mr-1">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0.742618 4.37926C0.742618 4.47978 0.781884 4.57619 0.851777 4.64727C0.92167 4.71836 1.01647 4.75829 1.11531 4.75829L9.90564 4.75829L7.55991 7.14318C7.52526 7.17842 7.49777 7.22025 7.47902 7.2663C7.46027 7.31234 7.45062 7.36169 7.45062 7.41153C7.45062 7.46137 7.46027 7.51072 7.47902 7.55677C7.49777 7.60281 7.52526 7.64465 7.55991 7.67989C7.59456 7.71513 7.6357 7.74308 7.68098 7.76216C7.72625 7.78123 7.77478 7.79105 7.82378 7.79105C7.87278 7.79105 7.92131 7.78123 7.96658 7.76216C8.01186 7.74308 8.053 7.71513 8.08765 7.67989L11.0692 4.64761C11.1039 4.6124 11.1314 4.57058 11.1502 4.52453C11.169 4.47848 11.1787 4.42911 11.1787 4.37926C11.1787 4.3294 11.169 4.28003 11.1502 4.23399C11.1314 4.18794 11.1039 4.14611 11.0692 4.1109L8.08765 1.07862C8.053 1.04338 8.01186 1.01543 7.96658 0.996356C7.92131 0.977284 7.87279 0.967468 7.82378 0.967468C7.77478 0.967468 7.72625 0.977284 7.68098 0.996356C7.6357 1.01543 7.59457 1.04338 7.55991 1.07862C7.52526 1.11387 7.49778 1.1557 7.47902 1.20175C7.46027 1.24779 7.45062 1.29714 7.45062 1.34698C7.45062 1.39682 7.46027 1.44617 7.47902 1.49221C7.49778 1.53826 7.52526 1.5801 7.55991 1.61534L9.90564 4.00022L1.11531 4.00022C1.01647 4.00022 0.92167 4.04016 0.851777 4.11124C0.781884 4.18232 0.742618 4.27873 0.742618 4.37926Z"
+                fill="white"
+              />
+            </svg>
+            Back
+          </div>
+          <div class="border-l w-[100px] flex items-center justify-center">
+            Next
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" fill="none" class="ml-1">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0.742618 4.37926C0.742618 4.47978 0.781884 4.57619 0.851777 4.64727C0.92167 4.71836 1.01647 4.75829 1.11531 4.75829L9.90564 4.75829L7.55991 7.14318C7.52526 7.17842 7.49777 7.22025 7.47902 7.2663C7.46027 7.31234 7.45062 7.36169 7.45062 7.41153C7.45062 7.46137 7.46027 7.51072 7.47902 7.55677C7.49777 7.60281 7.52526 7.64465 7.55991 7.67989C7.59456 7.71513 7.6357 7.74308 7.68098 7.76216C7.72625 7.78123 7.77478 7.79105 7.82378 7.79105C7.87278 7.79105 7.92131 7.78123 7.96658 7.76216C8.01186 7.74308 8.053 7.71513 8.08765 7.67989L11.0692 4.64761C11.1039 4.6124 11.1314 4.57058 11.1502 4.52453C11.169 4.47848 11.1787 4.42911 11.1787 4.37926C11.1787 4.3294 11.169 4.28003 11.1502 4.23399C11.1314 4.18794 11.1039 4.14611 11.0692 4.1109L8.08765 1.07862C8.053 1.04338 8.01186 1.01543 7.96658 0.996356C7.92131 0.977284 7.87279 0.967468 7.82378 0.967468C7.77478 0.967468 7.72625 0.977284 7.68098 0.996356C7.6357 1.01543 7.59457 1.04338 7.55991 1.07862C7.52526 1.11387 7.49778 1.1557 7.47902 1.20175C7.46027 1.24779 7.45062 1.29714 7.45062 1.34698C7.45062 1.39682 7.46027 1.44617 7.47902 1.49221C7.49778 1.53826 7.52526 1.5801 7.55991 1.61534L9.90564 4.00022L1.11531 4.00022C1.01647 4.00022 0.92167 4.04016 0.851777 4.11124C0.781884 4.18232 0.742618 4.27873 0.742618 4.37926Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <section class="mx-auto">
+      <h1 class="text-center text-3xl font-bold my-6 box-border">Our Reputation</h1>
+      <div class="flex justify-center gap-3 flex-wrap">
+        <div class="w-72 h-48 rounded-lg shadow-xl p-2 hover:bg-slate-500 group cursor-pointer hover:duration-500">
+          <img src="./src/images/icon.png" alt="" class="mt-3 w-8 h-8" />
+          <h2 class="my-2 text-2xl font-semibold group-hover:text-white">Best Service</h2>
+          <p class="mb-1 text-xl group-hover:text-white">Nullam senectus porttitor in eget. Eget rutrum leo interdum</p>
+        </div>
+        <div class="w-72 h-48 rounded-lg shadow-xl p-2 hover:bg-slate-500 group cursor-pointer hover:duration-500">
+          <img src="./src/images/icon.png" alt="" class="mt-3 w-8 h-8" />
+          <h2 class="my-2 text-2xl font-semibold group-hover:text-white">Best Teams</h2>
+          <p class="mb-1 text-xl group-hover:text-white">Cursus semper tellus volutpat aliquet lacus.</p>
+        </div>
+        <div class="w-72 h-48 rounded-lg shadow-xl p-2 hover:bg-slate-500 group cursor-pointer hover:duration-500">
+          <img src="./src/images/icon (1).png" alt="" class="mt-3 w-8 h-8" />
+          <h2 class="my-2 text-2xl font-semibold group-hover:text-white">Best Designs</h2>
+          <p class="mb-1 text-xl group-hover:text-white">Ultricies at ipsum nunc, tristique nam lectus.</p>
+        </div>
+    </section>
+
+    <section class="pt-16 px-12 relative">
+      <div>
+        <img src="./src/images/fouder1.jpg" alt="" class="w-2/3 h-full">
+      </div>
+      <div class="bg-blue-600 w-2/5 h-2/3 absolute right-10 bottom-16 p-8 flex flex-col justify-between ">
+        <h1 class="font-bold text-2xl text-white">About us</h1>
+        <p class="text-white text-xl">
+          For more than 30 years we have been delivering world-class construction and we’ve built many lasting relationships along the way.
+        </p>
+        <p class="text-white text-xl">
+          We’ve matured into an industry leader and trusted resource for those seeking quality, innovation and reliability when building in the U.S.
+        </p>
+        <button class="bg-white rounded-full w-1/2 p-2 text-blue-800 font-semibold">
+          More on Our History
+        </button>
+      </div>
+    </section>
+    <!--  -->
+    <section class="my-5">
+      <h1 class="text-center font-semibold text-3xl my-5">Services</h1>
+      <div class="flex justify-around flex-wrap gap-6">
+        <div class="flex flex-col items-center justify-evenly h-60 w-[30%] rounded-lg shadow-xl">
+            <div class="border-b-2 w-14 p-4">
+              <img src="./src/images/icon (2).png" alt="" class="h-7 w-7">
+            </div>
+          <h1 class="text-xl text-blue-600">Construction</h1>
+        </div>
+        <div class="flex flex-col items-center justify-evenly bg-blue-800 h-60 w-[30%] rounded-lg shadow-xl">
+          <div class="border-b-2 w-14 p-4">
+            <img src="./src/images/icon (3).png" alt="" class="h-7 w-7">
+          </div>
+        <h1 class="text-xl text-white">Renovation</h1>
+      </div>
+      <div class="flex flex-col items-center justify-evenly h-60 w-[30%] rounded-lg shadow-xl">
+        <div class="border-b-2 w-14 p-4">
+          <img src="./src/images/icon (4).png" alt="" class="h-7 w-7">
+        </div>
+      <h1 class="text-xl text-blue-600">Consultation</h1>
+    </div>
+    <div class="flex flex-col items-center bg-blue-800 justify-evenly h-60 w-[30%] rounded-lg shadow-xl">
+      <div class="border-b-2 w-14 p-4">
+        <img src="./src/images/icon (5).png" alt="" class="h-7 w-7">
+      </div>
+    <h1 class="text-xl text-white">Repair Servises</h1>
+  </div>
+  <div class="flex flex-col items-center justify-evenly h-60 w-[30%] rounded-lg shadow-xl">
+    <div class="border-b-2 w-14 p-4">
+      <img src="./src/images/icon (6).png" alt="" class="h-7 w-7">
+    </div>
+  <h1 class="text-xl text-blue-600">Architecture</h1>
+</div>
+<div class="flex flex-col items-center bg-blue-800 justify-evenly h-60 w-[30%] rounded-lg shadow-xl">
+  <div class="border-b-2 w-14 p-4">
+    <img src="./src/images/icon (7).png" alt="" class="h-7 w-7">
+  </div>
+<h1 class="text-xl text-white">Electric</h1>
+</div>
+      </div>
+      
+    </section>
+
+    <!--  -->
+    <section>
+      <div class="flex justify-around my-10 min-h-[500px] p-7">
+        <div class="w-[40%] relative">
+
+          <div class="w-56 rounded-lg bg-white p-4 absolute right-8 top-10 shadow-xl z-[1] ">
+            <div class=" absolute -top-10 -right-5">
+              <img src="./src/images/illus (1).png" alt="" class="w-16">
+            </div>
+            <h1 class=" text-5xl font-semibold">84</h1>
+            <div class="border-l-4 border-orange-500 pl-2 mt-2 text-xl">
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+            <div class="w-56 rounded-lg bg-white p-4 absolute left-20 top-28 shadow-xl">
+              <div class=" absolute -top-10 -left-10">
+                <img src="./src/images/illus.png" alt="" class="w-16">
+              </div>
+              <h1 class=" text-5xl font-semibold">123</h1>
+              <div class="border-l-4 border-orange-500 pl-2 mt-2 text-xl">
+                <p>Projects Completed</p>
+              </div>
+            </div>
+            
+            <div class="w-56 rounded-lg bg-white p-4 absolute right-12 top-52 shadow-xl z-[1]">
+              <div class=" absolute right-2 -top-10">
+                <img src="./src/images/illus (2).png" alt="" class="w-16">
+              </div>
+              <h1 class=" text-5xl font-semibold">37</h1>
+              <div class="border-l-4 border-orange-500 pl-2 mt-2 text-xl">
+                <p>Awards Win</p>
+              </div>
+            </div>
+
+            <div class="w-56 rounded-lg bg-white p-4 absolute left-20 top-72 shadow-xl">
+              <div class=" absolute -right-10 -bottom-5">
+                <img src="./src/images/illus (3).png" alt="" class="w-16">
+              </div>
+              <h1 class=" text-5xl font-semibold">30</h1>
+              <div class="border-l-4 border-orange-500 pl-2 mt-2 text-xl">
+                <p>Years in Business</p>
+              </div>
+            </div>
+        </div>
+        <div class=" w-[30%] h-1/2 my-auto">
+            <h1 class="text-blue-700 text-6xl font-bold">30 Years Experience</h1>
+            <p class="text-xl py-6">Our company has been the leading provided construction services to clients throughout the USA since 1988.</p>
+            <button class="bg-blue-700 text-white p-2 w-1/3 rounded-full font-bold">Contact Us</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="w-full h-96 bg-no-repeat bg-cover flex justify-around items-center text-white" style="background-image: url(./src/images/unsplash_MP0bgaS_d1c.png);">
+        <div>
+          <h1 class="text-4xl font-semibold">Free consultation with exceptional quality</h1>
+          <p class="text-xl mt-4">Just one call away: +84 1102 2703</p>
+        </div>
+        <button class="border-2 border-white p-3">
+          Get your consultation
+        </button>
+      </div>
+    </section>
+
+    <section class="p-10 box-border">
+      <h1 class="text-4xl font-bold mb-4">Project</h1>
+      <div class="flex justify-between">
+        <div class="flex flex-col text-xl font-semibold">
+          <div class="hover:border-l-4 hover:duration-1000 hover:border-orange-500 hover:text-blue-600 pl-2 py-2 border-l-4 border-transparent text-slate-500"><a href="">All</a></div>
+          <div class="hover:border-l-4 hover:duration-1000 hover:border-orange-500 hover:text-blue-600 pl-2 py-2 border-l-4 border-transparent text-slate-500"><a href="">Commercial</a></div>
+          <div class="hover:border-l-4 hover:duration-1000 hover:border-orange-500 hover:text-blue-600 pl-2 py-2 border-l-4 border-transparent text-slate-500"><a href="">Residential</a></div>
+          <div class="hover:border-l-4 hover:duration-1000 hover:border-orange-500 hover:text-blue-600 pl-2 py-2 border-l-4 border-transparent text-slate-500"><a href="">Other</a></div>
+        </div>
+        <div class="flex flex-wrap justify-center w-[60%] gap-5 box-border text-white">
+          <div class="w-[40%]">
+            <img src="./src/images/image1.png" alt="" class="w-full">
+            <div class="pl-2 py-3 bg-blue-700">
+            <h2 class="pb-2 font-semibold">Wildstone Infra Hotel</h2>
+            <p>2715 Ash Dr. San Jose, South Dakota</p>
+            </div>
+          </div>
+            
+          <div class="w-[40%]">
+            <img src="./src/images/image2.png" alt="" class="w-full">
+            <div class="pl-2 py-3 bg-blue-700">
+            <h2 class="pb-2 font-semibold">Wish Stone Building</h2>
+            <p>2972 Westheimer Rd. Santa Ana, Illinois</p>
+            </div>
+          </div>
+
+          <div class="w-[40%]">
+            <img src="./src/images/image3.png" alt="" class="w-full">
+            <div class="pl-2 py-3 bg-blue-700">
+            <h2 class="pb-2 font-semibold">Mr. Parkinston’s House</h2>
+            <p>3517 W. Gray St. Utica, Pennsylvania</p>
+            </div>
+          </div>
+          <div class="w-[40%]">
+            <img src="./src/images/image4.png" alt="" class="w-full">
+            <div class="pl-2 py-3 bg-blue-700">
+            <h2 class="pb-2 font-semibold">Oregano Height</h2>
+            <p>2464 Royal Ln. Mesa, New Jersey</p>
+            </div>
+          </div>
+          <div class="w-[82%] flex justify-between">
+            <div class="bg-slate-900 w-[40%] text-xl flex justify-center"> 
+              <div class="my-auto pr-3">
+                <img src="./src/images/Vector.png" alt="" class="h-4 w-4">
+              </div>
+              <div>
+                <h1>Back</h1>
+              </div>
+            </div>
+            <div class="bg-slate-900 w-[40%] text-xl flex justify-center"> 
+              <div>
+                <h1>Back</h1>
+              </div>
+              <div class="my-auto pl-3">
+                <img src="./src/images/Vector.png" alt="" class="h-4 w-4 rotate-180">
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section class="w-1/2 mx-auto">
+      <div>
+        <h1 class="text-3xl font-semibold text-center">What can us do for you?</h1>
+        <p class="text-xl font-semibold text-center mb-3">We are ready to work on a project of any complexity, whether its commercial or residentia</p>
+      </div>
+      <div class="flex flex-wrap gap-2">
+      <input type="tel" class="w-[49%] border box-border" placeholder="Masukan Nama">
+      <input type="tel" class="w-[49%] border box-border" placeholder="Masukan Nama">
+      <input type="tel" class="w-[49%] border box-border" placeholder="Masukan Nama">
+      <input type="tel" class="w-[49%] border box-border" placeholder="Masukan Nama">
+      <input type="text-area"class="w-[100%] h-24 border" placeholder="Masukan Nama">
+      <button
+  type="button"
+  class="mx-auto inline-block bg-blue-700 rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
+  Submit
+</button>
+    </section>
+    <div class="mt-96 h-14 border w-1/2 mx-auto">
+
+  <button
+  type="button"
+  class="mx-auto inline-block bg-blue-700 rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
+  Submit
+</button>
+    </div>
+  
+  </body>
+</html>
